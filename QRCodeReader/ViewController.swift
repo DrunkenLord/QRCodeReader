@@ -60,8 +60,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             {
                 if object.type == AVMetadataObjectTypeQRCode
                 {
-                    let alert = UIAlertController(title: "QR Code Scanned", message: "Welcome", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "Awesome", style: .default, handler: nil))
+                    let alert = UIAlertController(title: "QR Code Scanned", message: "Welcome to iOS Fusion", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Proceed!", style: .default, handler: nil))
                     present(alert, animated: true, completion: nil)
                 }
             }
